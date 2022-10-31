@@ -20,3 +20,5 @@ app.get(
 
 app.use('/auth', authRoutes);
 app.listen(PORT, () => console.log(`Server Running on ${PORT}`));
+
+// Path: Server/routes/auth.js
